@@ -26,7 +26,7 @@ class FarmaAdapter(var mFarma: FarmaSet) :RecyclerView.Adapter<FarmaAdapter.Farm
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FarmaciasViewHolder {
-        var view = LayoutInflater.from(parent.context).inflate(R.layout.fragment_first, parent, false)
+        var view = LayoutInflater.from(parent.context).inflate(R.layout.farma_item_list, parent, false)
         return FarmaciasViewHolder(view)
     }
 
